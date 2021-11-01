@@ -6,4 +6,8 @@ public class RandomNumberGenerator {
     public int randomNumber() {
         return new Random().nextInt();
     }
+
+    public int randomNumber(int limit) {
+        return new Random().nextInt(limit);
+    }
 }
